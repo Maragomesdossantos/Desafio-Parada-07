@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Exemplo 01</title> 
+        <meta charset="utf-8">
+        <STyle>
+            :root{
+                --bg_site:#c2bbb4;
+                --bg_table: #ffffff;
+                --c_border:#abb9a8;
+                --c_th: #f1f1f1;
+                --c_th_text: #faf6f1;
+            }    
+
+            body{
+                background-color: #4e596c;
+            }
+            
+            
+            table{
+                margin: auto;
+                text-align: center;
+                border-spacing: 0px;
+                background-color: var(--bg_table);
+            }
+
+            table, td, td{
+                border:1px solid var(--c_border);
+            }
+
+            td, th{
+                width: 130px;
+                height: 30px;
+            }    
+                
+            th{
+                background-color: #294a82;
+                color: white;
+            } 
+                
+        </STyle>
+    </head>
+
+    <body>
+        
+        <table>
+            <!-- tr é a linha da tabela -->
+            <!-- td é a coluna da tabela -->
+            <tr>
+                <th>NOME</th>
+                <th>SOBRENOME</th>
+                <th>CIDADE</th>
+            </tr>
+
+            <tr>
+                <td>ROSIMARA</td>
+                <td>GOMES</td>
+                <td>SÃO CARLOS-SP</td>
+            </tr>
+
+            <tr>
+                <td>MIGUEL</td>
+                <td>NASCIMENTO</td>
+                <td>SÃO CARLOS-SP</td>
+            </tr>
+
+            <tr>
+                <td>LETICIA</td>
+                 <td>SANTOS</td>
+                <td>SÃO CARLOS-SP</td>
+            </tr>
+        </table>
+
+    </body>
+    
+</html>
